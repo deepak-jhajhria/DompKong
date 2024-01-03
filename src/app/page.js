@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import FaqSec from "@/components/FaqSec";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Kong from "@/components/Kong";
 import MintNft from "@/components/MintNft";
@@ -13,6 +15,8 @@ export default function Home() {
       <Kong />
       <MintNft />
       <Team />
+      <FaqSec />
+      <Footer />
     </div>
   )
 }

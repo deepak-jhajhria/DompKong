@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .SliderPosition{
+        @apply absolute block left-[10px] top-[10px] bg-transparent
+    }
+}

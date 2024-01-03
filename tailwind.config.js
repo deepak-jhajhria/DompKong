@@ -11,6 +11,15 @@ module.exports = {
         'azo':["Azo Sans Uber W01 Regular"],
         'Montserrat':["'Montserrat', sans-serif "],
       },
+      animation:{
+        'bright': ' bright 3s infinite cubic-bezier(0.19, 1, 0.22, 1)',
+      },
+      keyframes:{
+        bright:{
+          '0%' :{right : '0%'},
+          '100%' :{right: '150%'}
+        }
+      },
     },
     screens:{
       'xs':'400px',
@@ -23,8 +32,9 @@ module.exports = {
     container:{
       center:true,
       padding:{
-        DEFAULT:'8px',
-        sm:'12px'
+        DEFAULT:'12px',
+        sm:'14px',
+        xl:'0'
       }
     }
   },

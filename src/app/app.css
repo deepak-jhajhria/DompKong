@@ -1,2 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 @import url(https://db.onlinewebfonts.com/c/d03165bd677535fe8da7479e26b13180?family=Azo+Sans+Uber+W01+Regular);
+
+.container1{
+    perspective: 1900px;
+    transform: rotate3d(1, 1, 1, 23deg);
+    -webkit-transform: rotate3d(1, 1, 1, 23deg);
+    -moz-transform: rotate3d(1, 1, 1, 23deg);
+    -ms-transform: rotate3d(1, 1, 1, 23deg);
+    -o-transform: rotate3d(1, 1, 1, 23deg);
+}
+#carousel{
+    transform-style: preserve-3d;
+  animation: rotation 35s linear infinite;
+}
+#carousel figure{
+    backface-visibility: hidden;
+}
+#carousel:hover{
+    animation-play-state: paused;
+}
+#carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(238px); width: 150px;}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(238px); width: 150px;}
+@keyframes rotation{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+@media (max-width:576px) {
+    #carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(168px); width: 150px;}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(168px); width: 150px;  }
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(168px); width: 150px;  }
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(168px); width: 150px;  }
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(168px); width: 150px;}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(168px); width: 150px;}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(168px); width: 150px;}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(168px); width: 150px;}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(168px); width: 150px;}
+}
