@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/image/FooterLogo.webp'
+import Logo from '../assets/image/footerLogo.webp'
 import Image from 'next/image'
 import { DiscordIconFooter, MediumIconFooter, OpenEyeIconFooter, OpenSeaIconFooter, TelegramIconFooter, TwiterIconFooter } from './Icons'
 const Footer = () => {
