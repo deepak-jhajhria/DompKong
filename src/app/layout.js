@@ -1,3 +1,4 @@
+import './app.css'
 import './globals.css'
 export const metadata = {
   title: 'DompKong',

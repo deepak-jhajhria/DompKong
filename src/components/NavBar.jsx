@@ -6,7 +6,9 @@ const NavBar = () => {
         <nav className='container max-w-[1140px] flex justify-end pt-[6px] relative z-30'>
             <div className='w-full md:w-1/2 flex justify-between items-center'>
                 <Image className=' max-xs:w-[80px] md:-translate-x-1/2' src={logo} alt='logo' />
-                <CommonButton text="cONNECT wALLET" />
+                <div>
+                    <CommonButton text="cONNECT wALLET" />
+                </div>
             </div>
         </nav>
     )

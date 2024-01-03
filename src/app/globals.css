@@ -1,12 +1,3 @@
-@font-face {
-    font-family: Azo Sans Uber W01 Regular,sans-serif;
-    src: url(../assets/font-family/OnlineWebFonts_COM_978654ae051051ab77fa2ed1e711d297/AzoSansUberW01Regular/AzoSansUberRegular.ttf);
-}
-@font-face {
-    font-family: Montserrat,sans-serif;
-    src: url(../assets/font-family/Montserrat/Montserrat-VariableFont_wght.ttf);
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url(https://db.onlinewebfonts.com/c/d03165bd677535fe8da7479e26b13180?family=Azo+Sans+Uber+W01+Regular); */

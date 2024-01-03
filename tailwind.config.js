@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'AzoSansUber':['Azo Sans Uber','sans-serif'],
-        'Montserrat':['Montserrat','sans-serif']
-      }
+        'azo':["Azo Sans Uber W01 Regular"],
+        'Montserrat':["'Montserrat', sans-serif "],
+      },
     },
     screens:{
       'xs':'400px',

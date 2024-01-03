@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className='bg-[url(../assets/image/headerBGImage.webp)] z-50 bg-cover bg-center w-full relative xs:min-h-[500px] sm:min-h-[600px] md:min-h-[700px] lg:min-h-[810px] overflow-hidden'>
             <NavBar />
-            <div className="container max-w-[539px] mt-[19px] flex flex-col items-center relative z-50">
+            <div className="container max-w-[579px] mt-[19px] flex flex-col items-center relative z-50">
                 <div className="flex items-center gap-4 sm:gap-6">
                     <a target="_blank" href="http://twitter.com">
                         <TwiterIconHeader />
@@ -33,7 +33,7 @@ const Header = () => {
                         <TelegramIconHeader />
                     </a>
                 </div>
-                <h1 className="text-white font-AzoSansUber font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[65px] uppercase text-center mt-5 sm:mt-7 lg:mt-[39px]"><span className=" text-center">WELCOME</span><br /> TO <span className=" relative after:absolute after:left-0 after:w-full after:h-[3px] sm:after:h-[5px] after:bottom-0 after:bg-[#FDDA60]">DomPKong</span></h1>
+                <h1 className="text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[65px] uppercase text-center mt-5 sm:mt-7 lg:mt-[39px]"><span className=" text-center">WELCOME</span><br /> TO <span className=" relative after:absolute after:left-0 after:w-full after:h-[3px] sm:after:h-[5px] after:bottom-0 after:bg-[#FDDA60] text-[#F1C85D]">DomPKong</span></h1>
                 <p className="font-normal font-Montserrat leading-5 sm:leading-[25px] text-center text-white mt-[14px] text-xs sm:text-base">Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vita</p>
                 <div className="flex gap-2 xs:gap-4 flex-col xs:flex-row sm:gap-5 md:gap-7 lg:gap-8 items-center mt-3 md:mt-7 lg:mt-[35px] max-xs:pb-[90px]">
                     <CommonButton text="Whitepaper" />
