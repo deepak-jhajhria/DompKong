@@ -32,9 +32,9 @@ const Utilities = () => {
     ))
     return (
         <div>
-            <div className="container max-w-[1140px]  pb-10 sm:pb-14 md:pb-[100px] lg:pb-[125px]">
+            <div className="container max-w-[1140px] mt-[40px] pb-10 sm:pb-14 md:pb-[100px] lg:pb-[113px]">
                 <h2 className="text-white font-azo font-normal text-center leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] uppercase">Utilities</h2>
-                <div className="grid  md:grid-cols-3 gap-4 md:gap-3 xl:gap-4 mt-[54px]">
+                <div className="grid  md:grid-cols-3 gap-4 md:gap-3 xl:gap-4 mt-[44px] mb-2">
                     {ItemsComponents}
                 </div>
             </div>

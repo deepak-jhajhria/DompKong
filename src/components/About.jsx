@@ -7,7 +7,7 @@ import '../app/app.css'
 import Image from 'next/image'
 const About = () => {
     return (
-        <div className='container max-w-[1140px] relative flex pt-7 sm:pt-10 md:pt-16 lg:pt-[100px] xl:pt-[200px] pb-10 sm:pb-[50px] md:pb-[80px] xl:pb-[119px]'>
+        <div className='container max-w-[1140px] relative flex pt-7 sm:pt-10 md:pt-16 lg:pt-[100px] xl:pt-[220px] pb-10 sm:pb-[50px] md:pb-[80px] xl:pb-[100px]'>
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 w-full">
                 <div className='flex flex-col w-full max-xl:items-center'>
                     <h2 className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] uppercase'>About </h2>

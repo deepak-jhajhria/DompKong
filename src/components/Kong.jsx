@@ -28,8 +28,8 @@ const Kong = () => {
         setTabs(tabs)
     }
     return (
-        <div className='flex w-full overflow-hidden'>
-            <div className='grid grid-cols-1 sm:grid-cols-5 w-full mx-auto'>
+        <div className='flex w-full overflow-hidden mt-1'>
+            <div className='grid grid-cols-1 sm:grid-cols-4 w-full mx-auto gap-6'>
                 <div className='col-span-1'>
                     <div className='flex sm:flex-col justify-around max-sm:py-5'>
                         <div className='sm:flex sm:justify-start sm:-translate-x-7'>
@@ -38,10 +38,10 @@ const Kong = () => {
                         <div className='sm:flex sm:justify-center sm:mt-[35px]'>
                             <Image onClick={() => tabChange("tab3")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong2} alt='Kong' />
                         </div>
-                        <div className='sm:flex sm:justify-end sm:mt-[35px]'>
+                        <div className='sm:flex sm:justify-end sm:mt-[30px]'>
                             <Image onClick={() => tabChange("tab4")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong3} alt='Kong' />
                         </div>
-                        <div className='sm:flex sm:justify-center sm:mt-[35px]'>
+                        <div className='sm:flex sm:justify-center sm:mt-[30px]'>
                             <Image onClick={() => tabChange("tab5")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong4} alt='Kong' />
                         </div>
                         <div className='sm:flex sm:justify-start sm:-translate-x-7 sm:mt-[35px]'>
@@ -49,8 +49,8 @@ const Kong = () => {
                         </div>
                     </div>
                 </div>
-                <div className='sm:col-span-3 relative mt-[29px]'>
-                    <h2 className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 text-center'>The Kongs</h2>
+                <div className='sm:col-span-2 relative mt-[29px]'>
+                    <h2 className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-6 text-center'>The Kongs</h2>
                     {tab === "tab1" &&
                         <div className='flex justify-center items-center'>
                             <Image src={KongFirst} alt='kong' />
@@ -115,10 +115,10 @@ const Kong = () => {
                         <div className='sm:flex sm:justify-center sm:mt-[35px]'>
                             <Image onClick={() => tabChange("tab8")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong7} alt='Kong' />
                         </div>
-                        <div className='sm:flex sm:justify-start sm:mt-[35px]'>
+                        <div className='sm:flex sm:justify-start sm:mt-[30px]'>
                             <Image onClick={() => tabChange("tab9")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong8} alt='Kong' />
                         </div>
-                        <div className='sm:flex sm:justify-center sm:mt-[35px]'>
+                        <div className='sm:flex sm:justify-center sm:mt-[30px]'>
                             <Image onClick={() => tabChange("tab10")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong9} alt='Kong' />
                         </div>
                         <div className='sm:flex sm:justify-end sm:translate-x-7 sm:mt-[35px]'>

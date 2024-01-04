@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Kong from "@/components/Kong";
 import MintNft from "@/components/MintNft";
+import PartnerSec from "@/components/PartnerSec";
+import Roadmap from "@/components/Roadmap";
 import Team from "@/components/Team";
 import Utilities from "@/components/Utilities";
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Utilities />
       <Kong />
       <MintNft />
+      <Roadmap />
+      <PartnerSec />
       <Team />
       <FaqSec />
       <Footer />

@@ -23,7 +23,7 @@ const MintNft = () => {
             <div className=' absolute top-0'><Image src={MIntUprShadow} alt='Shadow' /></div>
             <div className=' absolute bottom-0'><Image src={MIntDownShadow} alt='Shadow' /></div>
             <div className='container max-w-[1140px]'>
-                <div className="grid grid-cols-1 lg:grid-cols-2 pt-10 sm:pt-14 md:pt-16 lg:pt-[84px] pb-12 items-center w-full">
+                <div className="grid grid-cols-1 lg:grid-cols-2 pt-10 sm:pt-14 md:pt-16 lg:pt-[164px] pb-12 items-center w-full">
                     <div className=' flex justify-center'>
                         <Image src={MIntBg} alt='MintWishky' />
                         <div className="flex items-end mb-6 ml-[35px]">
