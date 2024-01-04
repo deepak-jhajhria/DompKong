@@ -17,15 +17,15 @@ const About = () => {
                     <div className="container1 mx-auto my-[4%] w-[210px] h-[140px] relative">
                         <div className=" w-[187px] h-[216px] bg-[#FDDA60] animate-pulse blur-[131px] absolute"></div>
                         <div id="carousel" className='w-full h-full absolute'>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider' src={cars} alt="car" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider1' src={watches} alt="Car" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider2' src={boat} alt="boast" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider3' src={cars} alt="boast" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider4' src={watches} alt="watches" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider5' src={cars} alt="car" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider6' src={boat} alt="boast" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider7' src={watches} alt="watches" /></figure>
-                            <figure className='SliderPosition'><Image className=' max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider6' src={boat} alt="boast" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider' src={cars} alt="car" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider1' src={watches} alt="Car" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider2' src={boat} alt="boast" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider3' src={cars} alt="boast" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider4' src={watches} alt="watches" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider5' src={cars} alt="car" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider6' src={boat} alt="boast" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider7' src={watches} alt="watches" /></figure>
+                            <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider6' src={boat} alt="boast" /></figure>
                         </div>
                     </div>
                 </div>

@@ -12,11 +12,11 @@ const Team = () => {
     ]
 
     const ItemsData = items.map((listing) => (
-        <div key={listing} className="grid grid-cols-1 md:grid-cols-2 border-t border-[#FDDA60] relative after:absolute after:w-full after:h-[2px] after:left-0 after:top-0 after:bg-[#FDDA60] after:blur-sm mt-8 sm:mt-10 md:mt-14 lg:mt-[65px]">
+        <div key={listing.Name} className="grid grid-cols-1 md:grid-cols-2 border-t border-[#FDDA60] relative after:absolute after:w-full after:h-[2px] after:left-0 after:top-0 after:bg-[#FDDA60] after:blur-sm mt-8 sm:mt-10 md:mt-14 lg:mt-[62px]">
             <div className="flex flex-col mt-4 lg:mt-6">
                 <p className=" text-white font-Montserrat font-bold text-xl sm:text-2xl">{listing.Name}</p>
-                <p className=" text-white text-lg sm:text-xl font-Montserrat font-normal mt-2 lg:mt-3">{listing.work}</p>
-                <Image className="mt-3 sm:mt-5 lg:mt-8 border-[3px] border-[#FDDA60] rounded-[20px] shadow-[0_0_17px_4px_rgba(253,218,96,0.50)]" src={listing.Image1} />
+                <p className=" text-white text-lg sm:text-xl font-Montserrat font-normal mt-2 lg:mt-[11px]">{listing.work}</p>
+                <Image className="mt-3 sm:mt-5 lg:mt-[30px] border-[3px] border-[#FDDA60] rounded-[20px] shadow-[0_0_17px_4px_rgba(253,218,96,0.50)]" src={listing.Image1} alt="Team Member"/>
             </div>
             <div className="flex flex-col mt-4 lg:mt-6">
                 <p className="text-white font-Montserrat font-bold text-2xl">{listing.UserName}</p>

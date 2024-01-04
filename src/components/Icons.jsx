@@ -206,37 +206,43 @@ export const ContractIcon = () => {
 };
 export const RoadmapLineIcon = () => {
     return (
-        <svg className="fill-white group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="179" height="12" viewBox="0 0 109 12" fill="none">
+        <svg className="fill-white max-sm:hidden group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="179" height="12" viewBox="0 0 109 12" fill="none">
             <path d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM97.6667 6.00001C97.6667 8.94553 100.054 11.3333 103 11.3333C105.946 11.3333 108.333 8.94553 108.333 6.00001C108.333 3.05449 105.946 0.666675 103 0.666675C100.054 0.666675 97.6667 3.05449 97.6667 6.00001ZM6 7L103 7.00001L103 5.00001L6 5L6 7Z" />
         </svg>
     )
 };
 export const RoadmapLineIcon2 = () => {
     return (
-        <svg className="fill-white group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="109" height="12" viewBox="0 0 109 12" fill="none">
+        <svg className="fill-white max-sm:hidden group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="109" height="12" viewBox="0 0 109 12" fill="none">
             <path d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM97.6667 6.00001C97.6667 8.94553 100.054 11.3333 103 11.3333C105.946 11.3333 108.333 8.94553 108.333 6.00001C108.333 3.05449 105.946 0.666675 103 0.666675C100.054 0.666675 97.6667 3.05449 97.6667 6.00001ZM6 7L103 7.00001L103 5.00001L6 5L6 7Z" />
         </svg>
     )
 };
 export const RoadmapLineIcon3 = () => {
     return (
-        <svg className="fill-white group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="123" height="12" viewBox="0 0 109 12" fill="none">
+        <svg className="fill-white max-sm:hidden group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="123" height="12" viewBox="0 0 109 12" fill="none">
             <path d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM97.6667 6.00001C97.6667 8.94553 100.054 11.3333 103 11.3333C105.946 11.3333 108.333 8.94553 108.333 6.00001C108.333 3.05449 105.946 0.666675 103 0.666675C100.054 0.666675 97.6667 3.05449 97.6667 6.00001ZM6 7L103 7.00001L103 5.00001L6 5L6 7Z" />
         </svg>
     )
 };
 export const RoadmapLineIcon4 = () => {
     return (
-        <svg className="fill-white group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="97" height="12" viewBox="0 0 109 12" fill="none">
+        <svg className="fill-white max-sm:hidden group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="97" height="12" viewBox="0 0 109 12" fill="none">
             <path d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM97.6667 6.00001C97.6667 8.94553 100.054 11.3333 103 11.3333C105.946 11.3333 108.333 8.94553 108.333 6.00001C108.333 3.05449 105.946 0.666675 103 0.666675C100.054 0.666675 97.6667 3.05449 97.6667 6.00001ZM6 7L103 7.00001L103 5.00001L6 5L6 7Z" />
         </svg>
     )
 };
 export const RoadmapLineIcon5 = () => {
     return (
-        <svg className="fill-white group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="133" height="12" viewBox="0 0 109 12" fill="none">
+        <svg className="fill-white max-sm:hidden group-hover:fill-[#FDDA60] duration-300" xmlns="http://www.w3.org/2000/svg" width="133" height="12" viewBox="0 0 109 12" fill="none">
             <path d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM97.6667 6.00001C97.6667 8.94553 100.054 11.3333 103 11.3333C105.946 11.3333 108.333 8.94553 108.333 6.00001C108.333 3.05449 105.946 0.666675 103 0.666675C100.054 0.666675 97.6667 3.05449 97.6667 6.00001ZM6 7L103 7.00001L103 5.00001L6 5L6 7Z" />
         </svg>
     )
 };
+export const BackGroundEllipse = () => {
+    return (
+        <span className="flex bg-[#FDDA60] w-28 h-28 sm:w-[200px] sm:h-[200px] lg:w-[364px] lg:h-[364px] rounded-full blur-[119px]"></span>
+    )
+};
+
 

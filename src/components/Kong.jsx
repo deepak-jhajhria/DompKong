@@ -22,16 +22,19 @@ import Kong8 from '../assets/image/8Kong.webp'
 import Kong9 from '../assets/image/9Kong.webp'
 import Kong10 from '../assets/image/10Kong.webp'
 import Image from 'next/image'
+import { BackGroundEllipse } from './Icons';
 const Kong = () => {
     const [tab, setTabs] = useState("tab1")
     function tabChange(tabs) {
         setTabs(tabs)
     }
     return (
-        <div className='flex w-full overflow-hidden mt-1'>
-            <div className='grid grid-cols-1 sm:grid-cols-4 w-full mx-auto gap-6'>
+        <div className='flex w-full overflow-hidden mt-1 relative'>
+            <div className=' absolute top-[36%] left-[42%]'><BackGroundEllipse /></div>
+            <div className='grid grid-cols-1 sm:grid-cols-4 w-full mx-auto gap-6 relative'>
+            <h2 className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 sm:top-6 text-center'>The Kongs</h2>
                 <div className='col-span-1'>
-                    <div className='flex sm:flex-col justify-around max-sm:py-5'>
+                    <div className='flex sm:flex-col justify-around max-xs:pt-12 max-sm:pt-14'>
                         <div className='sm:flex sm:justify-start sm:-translate-x-7'>
                             <Image onClick={() => tabChange("tab2")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong1} alt='Kong' />
                         </div>
@@ -49,8 +52,7 @@ const Kong = () => {
                         </div>
                     </div>
                 </div>
-                <div className='sm:col-span-2 relative mt-[29px]'>
-                    <h2 className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-6 text-center'>The Kongs</h2>
+                <div className='sm:col-span-2 max-xs:mb-4 max-sm:mb-10 sm:mt-[29px]'>
                     {tab === "tab1" &&
                         <div className='flex justify-center items-center'>
                             <Image src={KongFirst} alt='kong' />
@@ -108,7 +110,7 @@ const Kong = () => {
                     }
                 </div>
                 <div className='col-span-1'>
-                    <div className="flex sm:flex-col justify-around max-sm:py-5">
+                    <div className="flex sm:flex-col justify-around max-sm:pb-5">
                         <div className='sm:flex sm:justify-end sm:translate-x-7 '>
                             <Image onClick={() => tabChange("tab7")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded-full sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong6} alt='Kong' />
                         </div>
