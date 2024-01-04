@@ -20,7 +20,7 @@ const Utilities = () => {
         },
     ];
     const ItemsComponents = items.map((items)=>(
-        <div className="w-full border border-[#4E4E4E] hover:border-white group rounded-2xl bg-[#222222] duration-300 hover:bg-[#FDDA60] backdrop-blur-lg relative overflow-hidden hover:shadow-[0_14px_56px_0_rgba(253,218,96,0.50)]">
+        <div key={items.title} className="w-full border border-[#4E4E4E] hover:border-white group rounded-2xl bg-[#222222] duration-300 hover:bg-[#FDDA60] backdrop-blur-lg relative overflow-hidden hover:shadow-[0_14px_56px_0_rgba(253,218,96,0.50)]">
             <div className="flex flex-col items-center justify-center py-[25px] px-5 gap-4 md:gap-2 lg:gap-4">
                 <span >{items.logo}</span>
                 <p className=" font-Montserrat font-semibold text-white group-hover:text-black duration-300 text-xl sm:text-2xl text-center">{items.title}</p>
