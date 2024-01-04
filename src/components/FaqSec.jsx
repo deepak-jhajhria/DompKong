@@ -15,7 +15,6 @@ const FaqSec = () => {
         { title: "Commodo placerat ultricies.", content: "Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh." },
         { title: "Nunc amet cursus morbi donec.", content: "Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh." },
     ];
-  console.log(accordionData[0]);
     return (
         <div>
             <div className="container max-w-[896px] w-full mt-[47px]">

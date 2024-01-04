@@ -19,7 +19,7 @@ const Team = () => {
     ]
 
     const ItemsData = items.map((listing)=>(
-        <div className="grid grid-cols-2">
+        <div key={listing} className="grid grid-cols-2">
             <div className="flex flex-col">
                 <p className=" text-white font-Montserrat font-bold text-2xl">{listing.Name}</p>
                 <p className=" text-white text-xl font-Montserrat font-normal">{listing.work}</p>
