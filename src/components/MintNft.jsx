@@ -20,7 +20,7 @@ const MintNft = () => {
         }
     }
     return (
-        <div className='bg-[url(../assets/image/MintBG.webp)] bg-cover bg-no-repeat bg-center relative overflow-x-hidden'>
+        <div className='bg-[url(../assets/image/MintBG.webp)] bg-cover bg-no-repeat bg-center relative overflow-hidden'>
             <div className=' absolute top-0'><Image src={MIntUprShadow} alt='Shadow' /></div>
             <div className=' absolute bottom-0 -z-10'><Image src={MIntDownShadow} alt='Shadow' /></div>
             <div className=" absolute top-16 -left-8"><MintSecEllipseLeft /></div>
