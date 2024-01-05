@@ -133,18 +133,7 @@ export const BlackShodowHeader = () => {
 };
 export const AboutSecEllipse = () => {
     return (
-        <svg className="w-full" xmlns="http://www.w3.org/2000/svg" height="740" viewBox="0 0 740 740" fill="none">
-            <g filter="url(#filter0_f_0_131)">
-                <circle cx="370" cy="370" r="108" fill="#FDDA60" />
-            </g>
-            <defs>
-                <filter id="filter0_f_0_131" x="0" y="0" height="740" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="131" result="effect1_foregroundBlur_0_131" />
-                </filter>
-            </defs>
-        </svg>
+        <span className="flex bg-[#FDDA60] w-28 h-28 sm:w-[150px] sm:h-[150px] lg:w-[180px] lg:h-[180px] rounded-full blur-[119px]"></span>
     )
 };
 export const TeamInstaIcon = () => {
