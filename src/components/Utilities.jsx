@@ -1,6 +1,4 @@
-import React from "react";
 import { BriefCaseIcon, ContractIcon, FileIcon } from "./Icons";
-
 const Utilities = () => {
     const items = [
         {

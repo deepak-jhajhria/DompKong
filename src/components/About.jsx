@@ -1,4 +1,3 @@
-import React from 'react'
 import { AboutSecEllipse } from './Icons'
 import cars from '../assets/image/CarsImage.webp'
 import watches from '../assets/image/WatchesImage.webp'

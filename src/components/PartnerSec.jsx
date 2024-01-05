@@ -12,13 +12,13 @@ const PartnerSec = () => {
           <Image className='xl:mr-5 duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105' src={ImageLogo4} alt='fanniaMae'/>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className='flex justify-center h-full items-center relative max-xl:after:hidden max-xl:before:hidden after:absolute after:h-full after:w-[2px] after:bg-[#FDDA60] after:right-4 after:rotate-12 before:bg-[#FDDA60] before:absolute before:w-[4px] before:blur-sm before:right-4 before:h-full before:rotate-12 px-5'>
-          <Image className='duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105' src={ImageLogo2} alt='fanniaMae2'/>
+          <Image className='duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105 sm:px-5' src={ImageLogo2} alt='fanniaMae2'/>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className='flex justify-center h-full items-center relative max-xl:after:hidden max-xl:before:hidden after:absolute after:h-full after:w-[2px] after:bg-[#FDDA60] after:right-4 after:rotate-12 before:bg-[#FDDA60] before:absolute before:w-[4px] before:blur-sm before:right-4 before:h-full before:rotate-12 px-5'>
-          <Image className='duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105' src={ImageLogo3} alt='fanniaMae3'/>
+          <Image className='duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105 sm:px-5' src={ImageLogo3} alt='fanniaMae3'/>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className='flex justify-center items-center'>
-          <Image className='duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105' src={ImageLogo1} alt='fanniaMae4'/>
+          <Image className='duration-300 hover:brightness-100 hover:contrast-125 hover:sepia hover:scale-105 sm:px-5' src={ImageLogo1} alt='fanniaMae4'/>
         </div>
       </div>
     </div>

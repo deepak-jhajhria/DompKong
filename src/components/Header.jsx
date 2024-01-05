@@ -14,24 +14,12 @@ const Header = () => {
             <NavBar />
             <div className="container max-w-[579px] mt-[19px] flex flex-col items-center relative z-50">
                 <div className="flex items-center gap-4 sm:gap-6">
-                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com">
-                        <TwiterIconHeader />
-                    </a>
-                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com">
-                        <OpenSeaIconHeader />
-                    </a>
-                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com">
-                        <OpenEyeIconHeader />
-                    </a>
-                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com">
-                        <DiscordIconHeader />
-                    </a>
-                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com">
-                        <MediumIconHeader />
-                    </a>
-                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com">
-                        <TelegramIconHeader />
-                    </a>
+                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://twitter.com"><TwiterIconHeader /></a>
+                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://sea.com"><OpenSeaIconHeader /></a>
+                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://openeye.com"><OpenEyeIconHeader /></a>
+                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://discord.com"><DiscordIconHeader /></a>
+                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://medium.com"><MediumIconHeader /></a>
+                    <a className=" duration-300 hover:scale-105 group" data-aos="zoom-in" data-aos-duration="2000" target="_blank" href="http://telegram.com"><TelegramIconHeader /></a>
                 </div>
                 <h1 data-aos="fade-right" data-aos-duration="2000" className="text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[65px] uppercase text-center mt-5 sm:mt-7 lg:mt-[39px]"><span className=" text-center">WELCOME</span><br /> TO <span className=" relative after:absolute after:left-0 after:w-full after:h-[3px] sm:after:h-[5px] after:bottom-0 after:bg-[#FDDA60] text-[#F1C85D]">DomPKong</span></h1>
                 <p data-aos="fade-left" data-aos-duration="2000" className="font-normal font-Montserrat leading-5 sm:leading-[25px] text-center text-white mt-[14px] text-xs sm:text-base">Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vita</p>

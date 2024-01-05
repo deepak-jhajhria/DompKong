@@ -1,4 +1,3 @@
-import React from 'react'
 import Pac2 from '../assets/image/2Pac.webp'
 import PacBorder from '../assets/image/borderroadmap.png'
 import Image from 'next/image'

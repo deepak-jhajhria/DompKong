@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react"
 import { AddIcon, MinusIcon } from "./Icons";
-
 const FaqSec = () => {
     const [open, setOpen] = useState(0);
     const toggleAccordion = (index) => {
@@ -33,7 +32,7 @@ const FaqSec = () => {
                 </div>
             </div>
         </div>
-    )
+    )   
 }
 
 export default FaqSec

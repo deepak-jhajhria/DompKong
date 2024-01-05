@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../assets/image/footerLogo.webp'
 import Image from 'next/image'
 import { DiscordIconFooter, MediumIconFooter, MintSecEllipseRight, OpenEyeIconFooter, OpenSeaIconFooter, TelegramIconFooter, TwiterIconFooter } from './Icons'
