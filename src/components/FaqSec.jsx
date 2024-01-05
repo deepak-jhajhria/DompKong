@@ -16,12 +16,12 @@ const FaqSec = () => {
         { title: "Nunc amet cursus morbi donec.", content: "Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh." },
     ];
     return (
-        <div>
-            <div className="container max-w-[896px] w-full mt-[141px]">
-                <h2 className='text-white font-azo font-normal text-center leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] uppercase'>FAQs</h2>
-                <div className="my-[55px]">
+        <div className=" overflow-hidden">
+            <div className="container max-w-[896px] w-full">
+                <h2 data-aos="fade-right" data-aos-duration="2000" className='text-white font-azo font-normal text-center leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] uppercase'>FAQs</h2>
+                <div className="my-8 sm:my-10 lg:my-[55px]">
                     {accordionData.map((item, index) => (
-                        <div className={` ${open === index[0] ? "max-h-24" : "max-h-"} bg-transparent border-b border-[#FDDA60] relative after:absolute after:w-full after:h-[2px] after:left-0 after:bottom-0 after:bg-[#FDDA60] after:blur-sm mt-[25px] `} key={item.title}>
+                        <div data-aos="fade-up" data-aos-duration="2000" className={` ${open === index[0] ? "max-h-24" : "max-h-"} bg-transparent border-b border-[#FDDA60] relative after:absolute after:w-full after:h-[2px] after:left-0 after:bottom-0 after:bg-[#FDDA60] after:blur-sm mt-[25px] `} key={item.title}>
                             <div onClick={() => toggleAccordion(index)} className={` ${open === index ? "mx-[15px]" : ""} cursor-pointer text-white text-sm xs:text-base sm:text-lg md:text-xl lg:text-[22px] font-Montserrat font-bold justify-between flex`}>
                                 <div>{item.title}</div><div className=" flex items-center justify-center">{open === index ? (<MinusIcon />) : (<AddIcon />)}</div>
                             </div>
