@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                     <div>
                         <div className="container1 mx-auto my-[4%] w-[210px] h-[140px] relative">
-                            <div data-aos="fade-right" data-aos-duration="2000" id="carousel" className='w-full h-full absolute'>
+                            <div id="carousel" className='w-full h-full absolute'>
                                 <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider' src={cars} alt="car" /></figure>
                                 <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider1' src={watches} alt="Car" /></figure>
                                 <figure className='SliderPosition'><Image className=' max-xs:max-w-16 max-sm:max-w-[90px] max-md:max-w-[120px] max-xl:max-w-[150px] rounded border-[3px] border-[#FDDA60]' id='slider2' src={boat} alt="boast" /></figure>
