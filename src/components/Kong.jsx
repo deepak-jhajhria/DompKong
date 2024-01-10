@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import KongFirst from '../assets/image/kong.webp'
 import Kongshow1 from '../assets/image/KongShow1.webp'
 import Kongshow2 from '../assets/image/KongShow2.webp'
@@ -23,6 +23,7 @@ import Kong9 from '../assets/image/9Kong.webp'
 import Kong10 from '../assets/image/10Kong.webp'
 import Image from 'next/image'
 import { BackGroundEllipse } from './Icons';
+import Loding from './Loding';
 const Kong = () => {
     const [tab, setTabs] = useState("tab1")
     function tabChange(tabs) {
@@ -32,7 +33,7 @@ const Kong = () => {
         <div className='flex w-full overflow-hidden mt-1 relative'>
             <div className=' absolute top-[36%] left-[42%]'><BackGroundEllipse /></div>
             <div className='grid grid-cols-1 sm:grid-cols-4 w-full mx-auto gap-6 relative'>
-            <h2 data-aos="fade-right" data-aos-duration="2000" className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 sm:top-6 text-center'>The Kongs</h2>
+                <h2 data-aos="fade-right" data-aos-duration="2000" className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 sm:top-6 text-center'>The Kongs</h2>
                 <div className='col-span-1'>
                     <div className='flex sm:flex-col justify-around max-xs:pt-12 max-sm:pt-14'>
                         <div data-aos="fade-right" data-aos-duration="2000" className='sm:flex sm:justify-start '>
@@ -52,63 +53,65 @@ const Kong = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-duration="2000" className='sm:col-span-2 max-xs:mb-4 max-sm:mb-10 sm:mt-[29px]'>
-                    {tab === "tab1" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={KongFirst} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab2" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow1} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab3" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow2} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab4" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow3} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab5" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow4} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab6" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow5} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab7" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow6} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab8" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow7} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab9" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow8} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab10" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow9} alt='kong' />
-                        </div>
-                    }
-                    {tab === "tab11" &&
-                        <div className='flex justify-center items-center'>
-                            <Image src={Kongshow10} alt='kong' />
-                        </div>
-                    }
-                </div>
+                <Suspense fallback={<Loding />}>
+                    <div data-aos="fade-down" data-aos-duration="2000" className='sm:col-span-2 max-xs:mb-4 max-sm:mb-10 sm:mt-[29px]'>
+                        {tab === "tab1" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={KongFirst} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab2" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow1} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab3" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow2} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab4" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow3} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab5" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow4} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab6" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow5} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab7" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow6} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab8" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow7} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab9" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow8} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab10" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow9} alt='kong' />
+                            </div>
+                        }
+                        {tab === "tab11" &&
+                            <div className='flex justify-center items-center'>
+                                <Image src={Kongshow10} alt='kong' />
+                            </div>
+                        }
+                    </div>
+                </Suspense>
                 <div className='col-span-1'>
                     <div className="flex sm:flex-col justify-around max-sm:pb-5">
                         <div data-aos="fade-left" data-aos-duration="2000" className='sm:flex sm:justify-end  '>
